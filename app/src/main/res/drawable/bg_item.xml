@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/pink_200"
+    android:radius="16dp"
+    tools:targetApi="lollipop">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="0dp"/>
+            <solid android:color="?colorOnPrimarySurface"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="0dp"/>
+            <solid android:color="?colorOnPrimarySurface"/>
+        </shape>
+    </item>
+
+</ripple>

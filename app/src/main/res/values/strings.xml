@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MyInfo Cloud</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calls">calls</string>
+    <string name="messages">messages</string>
+    <string name="notes">notes</string>
+    <string name="search">Search</string>
+    <string name="full_name">Full Name</string>
+    <string name="about">About</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="profile">Profile</string>
+    <string name="log_out">Log out</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="new_note">New Note</string>
+    <string name="user_id">User ID</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="don_t_you_have_an_account">Don\'t you have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="confirm">confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="in_order_to_delete_your_account_password_is_required_please_enter_your_password">In order to delete your account, Password is required. Please enter your Password.</string>
+    <string name="exit">Exit</string>
+    <string name="change_email">Change Email</string>
+    <string name="in_order_to_change_your_email_password_is_required_please_enter_your_password">In order to change your email, password is required. Please enter your password.</string>
+    <string name="notice_if_you_want_to_change_your_email_you_have_to_verify_the_new_email_after_verification_you_will_be_able_to_login_to_your_account_again_so_if_you_enter_a_fake_email_address_you_won_t_be_able_to_recover_your_data">NOTICE: If you want to change your Email, you have to verify the new Email. After verification you will be able to login to your account again. So if you enter a fake Email Address you won\'t be able to recover your data.</string>
+
+</resources>

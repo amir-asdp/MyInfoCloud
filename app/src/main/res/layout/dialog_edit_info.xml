@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/edit_info_dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:backgroundTint="@color/colorPrimary"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/edit_info_dialog_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:backgroundTint="@color/colorPrimary"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="292dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="First name:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edit_info_dialog_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:hint="First name" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="292dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="Last name:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edit_info_dialog_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:hint="Last name" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="292dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="Phone numbers:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/edit_info_dialog_phone_numbers"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textColor="@color/black"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/edit_info_dialog_edit_phone_number"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Edit"
+                        style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="292dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="Email:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/edit_info_dialog_google_account_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/edit_info_dialog_email_google"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Email"
+                        android:textSize="18dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/edit_info_dialog_change_email_google"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CHANGE"
+                        style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"/>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edit_info_dialog_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:hint="Email" />
+
+                <TextView
+                    android:id="@+id/edit_info_dialog_notice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="@string/notice_if_you_want_to_change_your_email_you_have_to_verify_the_new_email_after_verification_you_will_be_able_to_login_to_your_account_again_so_if_you_enter_a_fake_email_address_you_won_t_be_able_to_recover_your_data"
+                    android:textColor="@color/red_A700"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

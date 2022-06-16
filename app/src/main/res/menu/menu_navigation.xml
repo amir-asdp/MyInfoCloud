@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile_btn"
+        android:icon="@drawable/ic_profile_black"
+        android:title="@string/profile" />
+    <item
+        android:id="@+id/logout_btn"
+        android:icon="@drawable/ic_logout_black"
+        android:title="@string/log_out" />
+    <item
+        android:id="@+id/delete_account_btn"
+        android:icon="@drawable/ic_delete_account_black"
+        android:title="@string/delete_account" />
+    <item
+        android:id="@+id/exit_btn"
+        android:icon="@drawable/ic_exit_black"
+        android:title="@string/exit" />
+</menu>
